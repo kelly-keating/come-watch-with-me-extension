@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Come Watch With Me",
+  "description": "This extension will allow you to stop and start videos in sync with your buddies",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "sheep.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
